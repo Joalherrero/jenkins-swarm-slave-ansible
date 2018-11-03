@@ -1,5 +1,5 @@
 ARG CODE_VERSION=latest
-FROM centos:$(CODE_VERSION)
+FROM centos:${CODE_VERSION}
 
 ENV JENKINS_SWARM_VERSION 3.14
 ENV HOME /home/jenkins-slave
