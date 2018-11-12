@@ -19,4 +19,4 @@ Linking to the Jenkins master container there is no need to use `--master`
 
 # Building
 
-    docker build -t csanchez/jenkins-swarm-slave .
+    docker build -t joalherrero/jenkins-swarm-slave .
