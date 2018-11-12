@@ -1,6 +1,8 @@
 ARG CODE_VERSION=latest
 FROM centos:${CODE_VERSION}
 
+LABEL version="ansible-2.4"
+
 ENV JENKINS_SWARM_VERSION 3.14
 ENV HOME /home/jenkins-slave
 
