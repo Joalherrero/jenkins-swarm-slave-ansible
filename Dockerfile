@@ -33,5 +33,5 @@ VOLUME /home/jenkins-slave
 
 ENTRYPOINT ["/usr/local/bin/jenkins-slave.sh"]
 
-
+CMD ["ansible","--version"]
 
